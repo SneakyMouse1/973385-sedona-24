@@ -5,6 +5,7 @@ body {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
+	line-height: 21px;
     color: #333333;
     text-transform: uppercase;
     background-color: #f2f2f2;
@@ -60,7 +61,6 @@ a {
 .name-of-the-hotels:hover,
 .menu-navigation a:focus,
 .name-of-the-hotels:focus {
-    outline: none;
     color: #81b3d2;
 }
 
@@ -818,8 +818,6 @@ Reason + Benefits
     line-height: 21px;
     margin: 0;
     margin-bottom: 27px;
-    padding-right: 40px;
-    padding-left: 40px;
     text-align: center;
     width: 123px;
 }
@@ -846,8 +844,6 @@ Reason + Benefits
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-left: 48px;
-    padding-right: 48px;
     width: 400px;
 }
 
@@ -893,7 +889,7 @@ Reason + Benefits
 }
 
 .benefits li:first-child {
-    background-image: url("../img/icon-1.svg");
+    background-image: url("../img/house.svg");
     background-position: 163px 60px;
     background-repeat: no-repeat;
     padding-left: 72px;
@@ -901,7 +897,7 @@ Reason + Benefits
 }
 
 .benefits li:nth-child(2) {
-    background-image: url("../img/icon-3.svg");
+    background-image: url("../img/burger.svg");
     background-position: 162px 60px;
     background-repeat: no-repeat;
     padding-left: 57px;
@@ -909,7 +905,7 @@ Reason + Benefits
 }
 
 .benefits li:last-child {
-    background-image: url("../img/icon-2.svg");
+    background-image: url("../img/souvenirs.svg");
     background-position: 168px 57px;
     background-repeat: no-repeat;
     padding-left: 63px;
@@ -1048,7 +1044,7 @@ Paragraphs
 .intro {
     text-align: center;
     background-color: #5496bd;
-    background-image: url(../img/background-photo.jpg);
+    background-image: url("../img/background-photo.jpg");
     background-repeat: no-repeat;
     padding-top: 75px;
     background-position: 0 -82px;
@@ -1059,11 +1055,9 @@ Paragraphs
 }
 
 .slogan {
-    display: block;
     margin: 0;
     padding-left: 370px;
     padding-right: 370px;
-    background-color: #ffffff;
     padding-bottom: 32px;
     padding-top: 59px;
 }
@@ -1122,7 +1116,7 @@ Hotels grid
 
 .choosing-form {
     background-color: #5496bd;
-    background-image: url(../img/filter-background.jpg);
+    background-image: url("../img/filter-background.jpg");
     background-position: 0 -295px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1423,7 +1417,7 @@ Checkboxes
     position: absolute;
     top: -3px;
     left: 0;
-    background-image: url(../img/checkbox-off.svg);
+    background-image: url("../img/checkbox-off.svg");
     background-repeat: no-repeat;
     width: 27px;
     height: 23px;
@@ -1434,7 +1428,7 @@ Checkboxes
     position: absolute;
     top: -3px;
     left: 0;
-    background-image: url(../img/checkbox-on.svg);
+    background-image: url("../img/checkbox-on.svg");
     background-repeat: no-repeat;
     width: 27px;
     height: 23px;
@@ -1511,8 +1505,7 @@ Footer
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-left: 2px;
-}
+	}
 
 .academy-logo {
     display: -webkit-box;
