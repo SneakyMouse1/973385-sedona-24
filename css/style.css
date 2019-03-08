@@ -1238,7 +1238,7 @@ Hotels grid
     background-color: #ffffff;
 }
 
-.ring {
+.range {
     position: absolute;
     top: -9px;
     width: 4px;
@@ -1251,11 +1251,11 @@ Hotels grid
     cursor: pointer;
 }
 
-.ring-max {
+.range-max {
     left: 80%;
 }
 
-.ring:hover {
+.range:hover {
     border: 9px solid #ffffff;
 }
 
